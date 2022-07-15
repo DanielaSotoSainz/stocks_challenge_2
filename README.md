@@ -3,6 +3,7 @@
 
 ## Overview of the Project
 
+### Purpose
 The main purpose of Challenge 2 is to develop the ability to edit a code in VBA and  make it more useful for specific tasks. The action described is called “refactor” and can be used to improve a program already written. 
 During the module, a code was created for Steve, who wanted to develop a program for his parents to show them the best investment option. Steve’s parents want to invest in a specific company but they did research about it neither other options. The code analyzed the dataset of two specific years and a small dataset.
 In this case, he wants to use the program for the analysis of the entire stock market and be able to do it in a short period of time. The challenge of the module was to refactor the initial code, make it faster and more efficient using different functions learned during the course like “for” and “if”, within others. The analysis of all the stocks will help Steve’s parents to see all the best options and make an informed decision.
@@ -10,32 +11,42 @@ In this case, he wants to use the program for the analysis of the entire stock m
 
 ## Results
 
+### Code
 The original code made during the module works well with a small dataset but it was necessary to do some modifications to make it work for a bigger set. Some modifications can be seen in “Image 1. Refactored code Part 1”. The first change was declaring the “tickerIndex” variable and using it in different “for’s” and “if’s”. The variable helped for specification of each ticker and have some kind of control during the loops. 
 
+###### Image 1. Refactored Code Part 1
 ![Image 1. Refactored Code Part 1](Other_Resources/RefactoredCodePart1.PNG)
+
 
 The variable “tickerVolumes” was the one used to save the total Volume of each ticker. Other variables like “tickerStartingPrices” and “tickerEndingPrices” helped to see if the row of the loop had the first or the last ticker to know if tickerIndex needed to be increased, as it can be seen in “Image 2. Refactored code Part 2”. The loop is making the sum of the total volumes of each ticker, having twelve total results.
 
+###### Image 2. Refactored code Part 2
+![Image 2. Refactored code Part 2](Other_Resources/RefactoredCodePart2.PNG)
 
-![Image 2. Refactored code Part 2.](Other_Resources/RefactoredCodePart2.PNG)
 
+### Timer
 The timer starts after asking the year for the analysis and ends after printing and formatting the results. In the new script, the execution time was reduced for both years. The code ran in 0.6875 seconds with the original script in 2017 and now, with the changes mentioned before and others added to the script, the code ran in just 0.11 seconds for both years. The seconds for the first Code can be seen in “Image 3. Original Code Timer 2017” and the seconds of both years with the new code are in “Image 4. Refactored Code Timer 2017“ and “Image 5. Refactored Code Timer 2018”. An important note to add is that the timer starts just a few seconds after the user recibe the message box asking the year, so the time that the user takes to write the number is also contemplated. 
 
-
+###### Image 3. Original Code Timer 2017
 ![Image 3. Original Code Timer 2017](Other_Resources/TimerOriginalCode2017.PNG)
 
 
+###### Image 4. Refactored Code Timer 2017
 ![Image 4. Refactored Code Timer 2017](Resources/VBA_Challenge_2017.PNG)
 
 
+###### Image 5. Refactored Code Timer 2018
 ![Image 5. Refactored Code Timer 2018](Resources/VBA_Challenge_2018.PNG)
 
+
+### Analysis of the results
 The code also shows the return of each ticker and format each cell depending if it is higher or lower than zero. The next two images: “Image 6. All Stocks 2017” and “Image 7. All Stocks 2018”, shows the final results of the code using 2017 and 2018 as years for the analysis. The results show that most of the tickers had positive returns in 2017, being “TERP” the exception. While in 2018, the only tickers with positive returns were “ENPH” and “RUN”. It is seen that most of the tickers were down within a year, so it can be deduced that those are not the best investment options. It is important for Steve to do a more explicit research to inform the final results.
 
-
+###### Image 6. All Stocks 2017
 ![Image 6. All Stocks 2017](Other_Resources/Stocks2017.PNG)
 
 
+###### Image 7. All Stocks 2018
 ![Image 7. All Stocks 2018](Other_Resources/Stocks2018.PNG)
 
 
