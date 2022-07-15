@@ -23,21 +23,21 @@ The variable “tickerVolumes” was the one used to save the total Volume of ea
 The timer starts after asking the year for the analysis and ends after printing and formatting the results. In the new script, the execution time was reduced for both years. The code ran in 0.6875 seconds with the original script in 2017 and now, with the changes mentioned before and others added to the script, the code ran in just 0.11 seconds for both years. The seconds for the first Code can be seen in “Image 3. Original Code Timer 2017” and the seconds of both years with the new code are in “Image 4. Refactored Code Timer 2017“ and “Image 5. Refactored Code Timer 2018”. An important note to add is that the timer starts just a few seconds after the user recibe the message box asking the year, so the time that the user takes to write the number is also contemplated. 
 
 
-![Image 3. Original Code Timer 2017.](Other Resources/TimerOriginalCode2017.PNG)
+![Image 3. Original Code Timer 2017](Other Resources/TimerOriginalCode2017.PNG)
 
 
-![Image 4. Refactored Code Timer 2017.](Resources/VBA_Challenge_2017.PNG)
+![Image 4. Refactored Code Timer 2017](Resources/VBA_Challenge_2017.PNG)
 
 
-![Image 5. Refactored Code Timer 2018.](Resources/VBA_Challenge_2018.PNG)
+![Image 5. Refactored Code Timer 2018](Resources/VBA_Challenge_2018.PNG)
 
 The code also shows the return of each ticker and format each cell depending if it is higher or lower than zero. The next two images: “Image 6. All Stocks 2017” and “Image 7. All Stocks 2018”, shows the final results of the code using 2017 and 2018 as years for the analysis. The results show that most of the tickers had positive returns in 2017, being “TERP” the exception. While in 2018, the only tickers with positive returns were “ENPH” and “RUN”. It is seen that most of the tickers were down within a year, so it can be deduced that those are not the best investment options. It is important for Steve to do a more explicit research to inform the final results.
 
 
-![Image 6. All Stocks 2017.](Other Resources/Stocks2017.PNG)
+![Image 6. All Stocks 2017](Other Resources/Stocks2017.PNG)
 
 
-![Image 7. All Stocks 2018.](Other Resources/Stocks2018.PNG)
+![Image 7. All Stocks 2018](Other Resources/Stocks2018.PNG)
 
 
 ##Summary
